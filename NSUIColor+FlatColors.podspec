@@ -24,10 +24,15 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Adrian" => "as@emiscience.com" }
   s.social_media_url   = "http://twitter.com/emiscience"
-  s.ios.platform = :ios
-  s.osx.platform = :osx
+  s.ios.deployment_target = '5.0'
+  s.osx.deployment_target = '10.7'
   s.requires_arc = true
   s.source       = { :git => "https://github.com/emiscience/NSUIColor-FlatColors.git", :tag => "#{version}" }
-  s.source_files = "NSUIColor+FlatColors"
+  
+  s.default_subspecs = 'Default'
+
+  s.subspec 'Default' do |ss|
+    ss.source_files = "NSUIColor+FlatColors"
+  end
 
 end
