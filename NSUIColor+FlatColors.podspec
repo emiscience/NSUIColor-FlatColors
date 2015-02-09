@@ -3,7 +3,7 @@ version = "0.0.2";
 Pod::Spec.new do |s|
   s.name         = "NSUIColor+FlatColors"
   s.version      = version
-  s.summary      = "A compiler-aware category for iOS and OS X to extend UIColor and NSColor with the flat colors from the Flat UI framework. http://designmodo.github.io/Flat-UI/"
+  s.summary      = "A compiler-aware category for iOS and OS X to extend UIColor and NSColor with colors from http://designmodo.github.io/Flat-UI/"
 
   s.description  = <<-DESC
              A compiler-aware category for iOS and OS X to extend UIColor and NSColor with the flat colors from the Flat UI framework. http://designmodo.github.io/Flat-UI/
