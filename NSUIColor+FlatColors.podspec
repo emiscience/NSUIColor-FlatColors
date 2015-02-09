@@ -27,4 +27,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source       = { :git => "https://github.com/emiscience/NSUIColor-FlatColors.git", :tag => "#{version}" }
   s.source_files = "NSUIColor+FlatColors"
+
 end
