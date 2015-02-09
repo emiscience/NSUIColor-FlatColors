@@ -14,11 +14,13 @@ Get the colors from a `UIColor`or `NSColor` class method following this naming p
 ```objc
 // iOS
 #import UIColor+FlatColors.h
+...
 someViewYouWantToColor.backgroundColor = [UIColor flatEmeraldColor];
 ```
 ```objc
 // OS X
 #import NSColor+FlatColors.h
+...
 someViewYouWantToColor.backgroundColor = [NSColor flatEmeraldColor];
 ```
 ### Cocoapod Installation
@@ -27,7 +29,7 @@ work in progress
 ```
 
 ### Version
-1.0.0
+0.0.2
 
 ### Mentions
 This particluar pod was adapted from [UIColor+FlatColors] by [Giovanni Lodi].
